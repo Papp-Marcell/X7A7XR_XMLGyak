@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orarend>
+    <ora id="xml1" típus="elmélet">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>1.Előadó</helyszin>
+        <oktato>Dr.Bednarik László</oktato>
+        <szak>Programtervezo Informatikus</szak>
+    </ora>
+    <ora id="xml2" típus="gyakorlat">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr.Bednarik László</oktato>
+        <szak>Programtervezo Informatikus</szak>
+    </ora>
+    <ora id="sz2" típus="gyakorlat">
+        <targy>Szakdolgozatkészítés 2</targy>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>8:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Karácsony Zsolt</oktato>
+        <szak>Programtervezo Informatikus</szak>
+    </ora>
+</orarend>
