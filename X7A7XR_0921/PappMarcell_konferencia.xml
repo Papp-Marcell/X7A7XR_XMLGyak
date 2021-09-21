@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<konferencia>
+    <cim>
+        XML konferencia
+    </cim>
+    <hallgatok>
+        <hallgato>
+            <nev>
+                Papp Marcell
+            </nev>
+            <lakcim>
+                Miskolc, Miskolc u. 1
+            </lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>
+        Miskolc
+    </helyszin>
+    <eloado>
+        <nev>Dr. Bedarik László</nev>
+        <adoszam>0123456789</adoszam>
+        <lakcim>Miskolc, Miskolc u. 2</lakcim>
+    </eloado>
+    <datum>2021.09.21</datum>
+</konferencia>
