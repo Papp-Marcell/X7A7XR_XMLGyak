@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT root (A*,B*,C*,relAB*,relBC*)>
+<!ELEMENT A (b+,Ac)>
+<!ATTLIST A a ID #REQUIRED>
+<!ELEMENT B (b)>
+<!ATTLIST B a ID #REQUIRED>
+<!ELEMENT b (x,y)>
+<!ELEMENT x (#PCDATA)>
+<!ELEMENT y (#PCDATA)>
+<!ELEMENT Ac (d,e)>
+<!ELEMENT d (#PCDATA)>
+<!ELEMENT e (#PCDATA)>
+<!ELEMENT C (Cb)>
+<!ELEMENT Cb (#PCDATA)>
+<!ATTLIST C a ID #REQUIRED>
+<!ELEMENT relAB (c)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT relBC EMPTY>
+<!ATTLIST relAB Aid IDREF #REQUIRED>
+<!ATTLIST relAB Bid IDREF #REQUIRED>
+<!ATTLIST relBC Bid IDREF #REQUIRED>
+<!ATTLIST relBC Cid IDREF #REQUIRED>
