@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PM_konyv.xsd">
+	<konyv id="a1">
+		<cim>Informatika Alapok</cim>
+		<kiadasiEv>2000</kiadasiEv>
+		<szerzo>Brad Pitt</szerzo>
+	</konyv>
+	<konyv id="a2">
+		<cim>Informatika Bevezetés</cim>
+		<kiadasiEv>2001</kiadasiEv>
+		<szerzo>Scarlett Johanson</szerzo>
+		<szerzo>Emma Stone</szerzo>
+	</konyv>
+	<konyv id="a3">
+		<cim>Informatika Haladóknak</cim>
+		<kiadasiEv>2002</kiadasiEv>
+		<szerzo>Peter Parker</szerzo>
+		<absztrakt>Ez egy absztrakt</absztrakt>
+	</konyv>
+</konyvek>
