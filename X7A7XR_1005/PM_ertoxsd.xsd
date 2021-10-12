@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/PM_ertoxsd" xmlns:tns="http://www.example.org/PM_ertoxsd" elementFormDefault="qualified">
+<element name="root">
+	<complexType>
+		<sequence>
+			<element name="A" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="b">
+							<complexType>
+								<sequence>
+									<element name="x" type="string"/>
+									<element name="y" type="string"/>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="Ac">
+							<complexType>
+								<sequence>
+									<element name="d" type="string"/>
+									<element name="e" type="string"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+					<attribute name="a" type="string" use="required"/>
+				</complexType>
+			</element>
+			<element name="B" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="b">
+							<complexType>
+								<sequence>
+									<element name="x" type="string"/>
+									<element name="y" type="string"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+					<attribute name="a" type="string" use="required"/>
+				</complexType>
+			</element>
+			<element name="C" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Cb" type="string"/>					
+					</sequence>
+					<attribute name="a" type="string" use="required"/>
+				</complexType>
+			</element>
+			<element name="RelAB" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="c" type="string"/>					
+					</sequence>
+					<attribute name="Aid" type="string" use="required"/>
+					<attribute name="Bid" type="string" use="required"/>
+				</complexType>
+			</element>
+			<element name="RelBC" maxOccurs="unbounded">
+				<complexType>
+					<attribute name="Bid" type="string" use="required"/>
+					<attribute name="Cid" type="string" use="required"/>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>
