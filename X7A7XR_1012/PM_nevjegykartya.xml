@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PM_nevjegykartya.xsd">
+	<nevjegykartya>
+		<nev>Papp Marcell</nev>
+		<ceg>
+			<nev>Bosch</nev>
+			<cim>
+				<iranyitoszam>1000</iranyitoszam>
+				<varos>Budapest</varos>
+				<utca>Utca</utca>
+				<hazszam>1</hazszam>
+			</cim>
+			<telefonszam>1234</telefonszam>
+			<weblap>bosch.hu</weblap>
+		</ceg>
+		<beosztas>gyakornok</beosztas>
+		<telefonszam>5678</telefonszam>
+		<email>email</email>
+	</nevjegykartya>
+	<nevjegykartya>
+		<nev>Nagy István</nev>
+		<ceg>
+			<nev>Bosch2</nev>
+			<cim>
+				<iranyitoszam>1001</iranyitoszam>
+				<varos>Győr</varos>
+				<utca>Tér</utca>
+				<hazszam>2</hazszam>
+			</cim>
+			<telefonszam>12345</telefonszam>
+			<weblap>bosch2.hu</weblap>
+		</ceg>
+		<beosztas>vezető gyakornok</beosztas>
+		<telefonszam>56789</telefonszam>
+		<email>email2</email>
+	</nevjegykartya>
+</nevjegykartyak>
