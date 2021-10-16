@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PM_konyv1.xsd">
+	<konyv isbn="1">
+		<cim>kitalált könyv</cim>
+		<szerzo>fantázia</szerzo>
+		<szereplo>
+			<nev>Jancsi</nev>
+			<baratja>Feri</baratja>
+			<szuletett>tegnap</szuletett>
+			<jellemzes>Jancsi</jellemzes>
+		</szereplo>
+		<szereplo>
+			<nev>Feri</nev>
+			<szuletett>tegnapelőtt</szuletett>
+			<jellemzes>Feri</jellemzes>
+		</szereplo>
+	</konyv>
+</konyvek>
