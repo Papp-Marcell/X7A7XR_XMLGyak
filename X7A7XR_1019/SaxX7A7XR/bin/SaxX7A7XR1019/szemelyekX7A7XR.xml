@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<szemelyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekX7A7XR.xsd">
+	<szemely id="a1">
+		<nev>Papp Marcell</nev>
+		<kor>22</kor>
+		<varos>Miskolc</varos>
+	</szemely>
+	<szemely id="a2">
+		<nev>Papp János</nev>
+		<kor>23</kor>
+		<varos>Eger</varos>
+	</szemely>
+	<szemely id="a3">
+		<nev>Papp István</nev>
+		<kor>24</kor>
+		<varos>Budapest</varos>
+	</szemely>
+</szemelyek>
