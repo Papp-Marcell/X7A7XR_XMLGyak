@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><users xmlns="domX7A7XR">
+	<user id="1">
+		<firstname>Papp</firstname>
+		<lastname>Marcell</lastname>
+		<profession>Junior Developer</profession>
+	</user>
+	<user id="2">
+		<firstname>Nagy</firstname>
+		<lastname>Tamás</lastname>
+		<profession>Senior Developer</profession>
+	</user>
+	<user id="3">
+		<firstname>Tóth</firstname>
+		<lastname>Lajos</lastname>
+		<profession>Fullstack Developer</profession>
+	</user>
+</users>

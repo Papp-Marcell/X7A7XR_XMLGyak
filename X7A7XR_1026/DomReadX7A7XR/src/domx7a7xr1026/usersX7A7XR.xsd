@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/usersX7A7XR" xmlns:tns="http://www.example.org/usersX7A7XR" elementFormDefault="qualified">
+	<element name="users">
+		<complexType>
+			<sequence>
+				<element name="user" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="firstname" type="string"/>
+							<element name="lastname" type="string"/>
+							<element name="profession" type="string"/>
+						</sequence>
+						<attribute name="id" type="string" use="required"/>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
