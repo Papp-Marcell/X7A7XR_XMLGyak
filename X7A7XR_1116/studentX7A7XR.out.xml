@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>Hallgatok adatai</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>ID</th><th>Vezeteknev</th><th>Keresztnev</th><th>Becenev</th><th>Kor</th>
+            </tr>
+            <tr>
+                <td>1</td><td>Papp</td><td>Marcell</td><td>DJ</td><td>22</td>
+            </tr>
+            <tr>
+                <td>2</td><td>Nagy</td><td>Tamas</td><td>Tomi</td><td>22</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Toth</td><td>Lajos</td><td>Lagzi Lajcsi</td><td>22</td>
+            </tr>
+        </table>
+    </body>
+</html>
