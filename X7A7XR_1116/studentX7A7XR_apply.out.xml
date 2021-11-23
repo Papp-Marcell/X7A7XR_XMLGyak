@@ -1,0 +1,48 @@
+<html>
+    <body>
+        <h2>Hallgatok apply-template</h2>
+        	
+        <p>
+                    ID: <span>1</span>
+            <br>
+                    Keresztnev: <span style="color:brown">Marcell</span>
+            <br>
+                    Vezeteknev: <span style="color:green">Papp</span>
+            <br>
+            DJ
+        Kor: <span style="color:blue">22</span>
+            <br>
+                    Fizetes: <span style="color:red">600000</span>
+            <br>
+        </p>
+        	
+        <p>
+                    ID: <span>2</span>
+            <br>
+                    Keresztnev: <span style="color:brown">Tamas</span>
+            <br>
+                    Vezeteknev: <span style="color:green">Nagy</span>
+            <br>
+            Tomi
+        Kor: <span style="color:blue">22</span>
+            <br>
+                    Fizetes: <span style="color:red">600000</span>
+            <br>
+        </p>
+        	
+        <p>
+                    ID: <span>3</span>
+            <br>
+                    Keresztnev: <span style="color:brown">Lajos</span>
+            <br>
+                    Vezeteknev: <span style="color:green">Toth</span>
+            <br>
+            Lagzi Lajcsi
+        Kor: <span style="color:blue">22</span>
+            <br>
+                    Fizetes: <span style="color:red">600000</span>
+            <br>
+        </p>
+        
+    </body>
+</html>
