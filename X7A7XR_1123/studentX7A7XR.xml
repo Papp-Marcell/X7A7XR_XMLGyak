@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "studentX7A7XR apply.xsl"?>
+
+<class>
+	<student id="1">
+		<vezeteknev>Papp</vezeteknev>
+		<keresztnev>Marcell</keresztnev>
+		<becenev>DJ</becenev>
+		<kor>22</kor>
+		<fizetes>600000</fizetes>
+	</student>
+	<student id="2">
+		<vezeteknev>Nagy</vezeteknev>
+		<keresztnev>Tamas</keresztnev>
+		<becenev>Tomi</becenev>
+		<kor>22</kor>
+		<fizetes>600000</fizetes>
+	</student>
+	<student id="3">
+		<vezeteknev>Toth</vezeteknev>
+		<keresztnev>Lajos</keresztnev>
+		<becenev>Lagzi Lajcsi</becenev>
+		<kor>22</kor>
+		<fizetes>600000</fizetes>
+	</student>
+</class>
