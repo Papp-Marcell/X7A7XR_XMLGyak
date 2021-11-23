@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>Hallgatok choose</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>ID</th><th>Vezeteknev</th><th>Keresztnev</th><th>Becenev</th><th>Fizetes</th><th>Fokozat</th>
+            </tr>
+            <tr>
+                <td>1</td><td>Papp</td><td>Marcell</td><td>DJ</td><td>600000</td><td>High</td>
+            </tr>
+            <tr>
+                <td>2</td><td>Nagy</td><td>Tamas</td><td>Tomi</td><td>350000</td><td>Medium</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Toth</td><td>Lajos</td><td>Lagzi Lajcsi</td><td>60000</td><td>Low</td>
+            </tr>
+        </table>
+    </body>
+</html>
