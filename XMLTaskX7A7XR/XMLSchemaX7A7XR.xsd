@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Adatbazis" type="adatbazis_tipus"/>
+	
+	<xs:complexType name="adatbazis_tipus">
+		<xs:sequence>
+			<xs:element name="Menhely" type="Menhely_tipus" maxOccurs="unbounded"/>
+			<xs:element name="Munkatars" type="Munkatars_tipus" maxOccurs="unbounded"/>
+			<xs:element name="Dolgozik" type="Dolgozik_tipus" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Munkatars_tipus">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="Email" type="xs:string" minOccurs="0"/>
+			<xs:element name="Beosztas" type="xs:string"/>
+			<xs:element name="Munkaido" type="Munkaido_tipus"/>
+		</xs:sequence>
+		<xs:attribute name="Ado_szam" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="Munkaido_tipus">
+		<xs:sequence>
+			<xs:element name="Tol" type="xs:positiveInteger"/>
+			<xs:element name="Ig" type="xs:positiveInteger"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Allat_tipus">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="Faj" type="xs:string"/>
+			<xs:element name="Nem" type="xs:string"/>
+			<xs:element name="Kor" type="xs:positiveInteger"/>
+		</xs:sequence>
+		<xs:attribute name="A_azonosito" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="Onkentes_tipus">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="OnkentesOrak" type="xs:positiveInteger"/>
+			<xs:element name="Email" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="Sz_szam" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="Menhely_tipus">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="Telefonszam" type="xs:positiveInteger" maxOccurs="unbounded"/>
+			<xs:element name="Cim" type="Cim_tipus"/>
+			<xs:element name="Onkentes" type="Onkentes_tipus" maxOccurs="unbounded"/>
+			<xs:element name="Allat" type="Allat_tipus" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="M_azonosito" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="Cim_tipus">
+		<xs:sequence>
+			<xs:element name="Iranyitoszam" type="xs:positiveInteger"/>
+			<xs:element name="Varos" type="xs:string"/>
+			<xs:element name="Utca" type="xs:string"/>
+			<xs:element name="Hazszam" type="xs:positiveInteger"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Dolgozik_tipus">
+		<xs:sequence>
+			<xs:element name="Fizetes" type="xs:positiveInteger"/>
+		</xs:sequence>
+		<xs:attribute name="M_ref" type="xs:string"  use="required"/>
+		<xs:attribute name="A_ref" type="xs:string"  use="required"/>
+	</xs:complexType>
+	
+</xs:schema>
