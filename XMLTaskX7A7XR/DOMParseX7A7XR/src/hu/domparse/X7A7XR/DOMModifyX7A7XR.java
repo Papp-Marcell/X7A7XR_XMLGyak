@@ -1,3 +1,11 @@
+/*
+ * Ez a program az XML fájlomon fog egy specifikus változtatást elvégezni, majd kiírni a konzolra.
+ * A változtatás tárgya az "m1" azonosítójú menhely nevének (alapból "Kutya Menhely") 
+ * megváltoztatása "Modositott nev"-re. Mûködése során kigyûjti a menhely objektumokat a DOMból,
+ * majd egy for ciklussal megkeresi az illeszkedõ azonosítójút,megváltoztatja a nevét,
+ * majd az egész XML fájlt kiírja konzolra a TransformerFactory segítségével.
+ */
+
 package hu.domparse.X7A7XR;
 
 import java.io.File;

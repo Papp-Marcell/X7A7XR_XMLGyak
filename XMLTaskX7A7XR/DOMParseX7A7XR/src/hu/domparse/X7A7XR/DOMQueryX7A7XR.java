@@ -1,3 +1,10 @@
+/*
+ * Ez a program egy lekérdezést hajt végre az XML fájlomon, majd kiírja a lekérdezés eredményét
+ * a konzolra. A lekérdezés célja azoknak az önkénteseknek a nevei akik legalább 11-órát önkénteskedtek.
+ * A program kigyûjti a onkentes objektumokat a DOMból, majd egy for ciklussal megkeresi
+ * a kritériumnak megfelelõ elemeket, és kiírja a nevüket a konzolra
+ */
+
 package hu.domparse.X7A7XR;
 
 import java.io.File;
@@ -10,6 +17,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
 
 public class DOMQueryX7A7XR {
 

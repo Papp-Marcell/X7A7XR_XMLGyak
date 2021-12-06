@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="Adatbazis" type="adatbazis_tipus"/>
+	<xs:element name="Adatbazis" type="adatbazis_tipus">
 	
+	<xs:key name="munkatars_key">
+		<xs:selector xpath="Munkatars"></xs:selector>
+		<xs:field xpath="@Ado_szam"></xs:field>
+	</xs:key>
+	
+	<xs:key name="menhely_key">
+		<xs:selector xpath="Menhely"></xs:selector>
+		<xs:field xpath="@M_azonosito"></xs:field>
+	</xs:key>
+	
+	<xs:key name="onkentes_key">
+		<xs:selector xpath="Menhely/Onkentes"></xs:selector>
+		<xs:field xpath="@Sz_szam"></xs:field>
+	</xs:key>
+	
+	<xs:key name="allat_key">
+		<xs:selector xpath="Menhely/Allat"></xs:selector>
+		<xs:field xpath="@A_azonosito"></xs:field>
+	</xs:key>
+	
+	<xs:keyref name="dolgozikM" refer="menhely_key">
+		<xs:selector xpath="Dolgozik"></xs:selector>
+		<xs:field xpath="@M_ref"></xs:field>
+	</xs:keyref>
+	
+	<xs:keyref name="dolgozikA" refer="munkatars_key">
+		<xs:selector xpath="Dolgozik"></xs:selector>
+		<xs:field xpath="@A_ref"></xs:field>
+	</xs:keyref>
+	
+	</xs:element>
 	<xs:complexType name="adatbazis_tipus">
 		<xs:sequence>
 			<xs:element name="Menhely" type="Menhely_tipus" maxOccurs="unbounded"/>
@@ -51,7 +82,7 @@
 			<xs:element name="Nev" type="xs:string"/>
 			<xs:element name="Telefonszam" type="xs:positiveInteger" maxOccurs="unbounded"/>
 			<xs:element name="Cim" type="Cim_tipus"/>
-			<xs:element name="Onkentes" type="Onkentes_tipus" maxOccurs="unbounded"/>
+			<xs:element name="Onkentes" type="Onkentes_tipus" maxOccurs="1"/>
 			<xs:element name="Allat" type="Allat_tipus" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute name="M_azonosito" type="xs:string" use="required"/>

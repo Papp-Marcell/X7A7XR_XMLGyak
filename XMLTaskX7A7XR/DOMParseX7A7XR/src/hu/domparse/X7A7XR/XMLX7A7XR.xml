@@ -14,12 +14,6 @@
 		</Cim>
 		
 		<Onkentes Sz_szam="sz1">
-			<Nev>Peter</Nev>
-			<OnkentesOrak>10</OnkentesOrak>
-			<Email>Peter@email.com</Email>
-		</Onkentes>
-		
-		<Onkentes Sz_szam="sz2">
 			<Nev>Tamas</Nev>
 			<OnkentesOrak>11</OnkentesOrak>
 			<Email>Tamas@email.com</Email>

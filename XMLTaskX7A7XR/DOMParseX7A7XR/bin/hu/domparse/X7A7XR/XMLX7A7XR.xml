@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaX7A7XR.xsd">
+
+	<Menhely M_azonosito="m1">
+		<Nev>Kutya Menhely</Nev>
+		<Telefonszam>1111</Telefonszam>
+		<Telefonszam>2222</Telefonszam>
+		<Cim>
+			<Iranyitoszam>3500</Iranyitoszam>
+			<Varos>Miskolc</Varos>
+			<Utca>Főutca</Utca>
+			<Hazszam>1</Hazszam>
+		</Cim>
+		
+		<Onkentes Sz_szam="sz1">
+			<Nev>Tamas</Nev>
+			<OnkentesOrak>11</OnkentesOrak>
+			<Email>Tamas@email.com</Email>
+		</Onkentes>
+		
+		<Allat A_azonosito="a1">
+			<Nev>Rex</Nev>
+			<Faj>Kutya</Faj>
+			<Nem>Fiú</Nem>
+			<Kor>3</Kor>
+		</Allat>
+		
+		<Allat A_azonosito="a2">
+			<Nev>Cica</Nev>
+			<Faj>Macska</Faj>
+			<Nem>Fiú</Nem>
+			<Kor>4</Kor>
+		</Allat>
+		
+	</Menhely>
+	
+	<Munkatars Ado_szam="ad1">
+		<Nev>Laci</Nev>
+		<Email>Laci@email.com</Email>
+		<Beosztas>Igazgato</Beosztas>
+		<Munkaido>
+			<Tol>8</Tol>
+			<Ig>16</Ig>
+		</Munkaido>
+	</Munkatars>
+	
+	<Munkatars Ado_szam="ad2">
+		<Nev>Pali</Nev>
+		<Email>Pali@email.com</Email>
+		<Beosztas>Gondnok</Beosztas>
+		<Munkaido>
+			<Tol>8</Tol>
+			<Ig>16</Ig>
+		</Munkaido>
+	</Munkatars>
+	
+	<Dolgozik M_ref="m1" A_ref="ad1">
+		<Fizetes>100000</Fizetes>
+	</Dolgozik>
+	
+	<Dolgozik M_ref="m1" A_ref="ad2">
+		<Fizetes>200000</Fizetes>
+	</Dolgozik>
+	
+</Adatbazis>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaX7A7XR.xsd">
+<Adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/hu/domparse/X7A7XR/XMLSchemaX7A7XR.xsd">
 
 	<Menhely M_azonosito="m1">
 		<Nev>Kutya Menhely</Nev>
@@ -12,12 +12,6 @@
 			<Utca>Főutca</Utca>
 			<Hazszam>1</Hazszam>
 		</Cim>
-		
-		<Onkentes Sz_szam="sz1">
-			<Nev>Peter</Nev>
-			<OnkentesOrak>10</OnkentesOrak>
-			<Email>Peter@email.com</Email>
-		</Onkentes>
 		
 		<Onkentes Sz_szam="sz2">
 			<Nev>Tamas</Nev>

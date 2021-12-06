@@ -1,3 +1,10 @@
+
+/*
+ *Ez a program szinte bármilyen XML fált beolvas és kiírja a konzolra a fájl faszerkezetét.
+ *Ezt egy rekurzív metódussal teszi meg, a végigmegy az összes gyerekelemen, és ha van, 
+ *akkor attribútumaikon és tartalmukon is.
+*/
+
 package hu.domparse.X7A7XR;
 
 import java.io.File;
@@ -11,6 +18,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Attr;
+
+
 
 public class DOMReadX7A7XR {
 
@@ -32,7 +41,7 @@ public class DOMReadX7A7XR {
 
 	}
 	
-	
+	//Rekurzívan kíír minden elemet és tartalmukat ha van
 	private static void printNodes(int depth, NodeList nodeList) {
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			if (nodeList.item(i).getNodeType() == Node.ELEMENT_NODE) {
@@ -57,7 +66,7 @@ public class DOMReadX7A7XR {
 			}
 		}
 	}
-	
+	//Kiírja az attribútumokat, ha vannak
 	private static void printAttributes(int depth, NamedNodeMap attributes) {
 		String indent = "";
 
